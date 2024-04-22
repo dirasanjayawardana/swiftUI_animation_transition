@@ -13,6 +13,8 @@
 		526BDB8C2BD6128700D49A20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526BDB8B2BD6128700D49A20 /* Preview Assets.xcassets */; };
 		526BDB962BD6170B00D49A20 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BDB952BD6170B00D49A20 /* LoadingIndicator.swift */; };
 		526BDB982BD61FD900D49A20 /* MorphingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BDB972BD61FD900D49A20 /* MorphingAnimation.swift */; };
+		526BDB9A2BD635FF00D49A20 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BDB992BD635FF00D49A20 /* TransitionView.swift */; };
+		526BDB9C2BD63B9100D49A20 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BDB9B2BD63B9100D49A20 /* FancyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		526BDB8B2BD6128700D49A20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		526BDB952BD6170B00D49A20 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		526BDB972BD61FD900D49A20 /* MorphingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingAnimation.swift; sourceTree = "<group>"; };
+		526BDB992BD635FF00D49A20 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		526BDB9B2BD63B9100D49A20 /* FancyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				526BDB862BD6128600D49A20 /* ContentView.swift */,
 				526BDB952BD6170B00D49A20 /* LoadingIndicator.swift */,
 				526BDB972BD61FD900D49A20 /* MorphingAnimation.swift */,
+				526BDB992BD635FF00D49A20 /* TransitionView.swift */,
+				526BDB9B2BD63B9100D49A20 /* FancyButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 				526BDB962BD6170B00D49A20 /* LoadingIndicator.swift in Sources */,
 				526BDB872BD6128600D49A20 /* ContentView.swift in Sources */,
 				526BDB982BD61FD900D49A20 /* MorphingAnimation.swift in Sources */,
+				526BDB9C2BD63B9100D49A20 /* FancyButton.swift in Sources */,
+				526BDB9A2BD635FF00D49A20 /* TransitionView.swift in Sources */,
 				526BDB852BD6128600D49A20 /* SwiftAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
