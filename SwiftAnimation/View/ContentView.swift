@@ -23,11 +23,15 @@ struct ContentView: View {
                 .font(.system(size: 100))
                 .scaleEffect(sizeChange ? 1.0 : 0.7)
         }
-        .animation(.default, value: colorChange)
-        .animation(.default, value: sizeChange)
+        // implisit animation
+        // .animation(.default, value: colorChange)
+        // .animation(.default, value: sizeChange)
         .onTapGesture {
-            colorChange.toggle()
-            sizeChange.toggle()
+            // explisit animation (harus berada dalam modifier)
+            withAnimation(.spring(.bouncy, blendDuration: 1.0)) {
+                colorChange.toggle()
+                sizeChange.toggle()
+            }
         }
     }
 }
